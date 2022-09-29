@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+
+    <header>
+
+    </header>
+    <main>
+
+        <section>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="">
+                            <select class="form-select" aria-label="Default select example" id="artista">
+                                <option selected>Seleccione su artista de la lista</option>
+                                <option value="3j0kMFxXTTYsuw1twLClw3">Motorama</option>
+                                <option value="4HxBVyHaUa60eCSsJWxwWR">Sisters of Mercy</option>
+                                <option value="3AA28KZvwAUcZuOKwyblJQ">Gorillaz</option>
+                                <option value="56eTRCwZ13vVWAmrG0dMnq">Richie Ray y Bobby Cruz</option>
+                                <option value="1QOmebWGB6FdFtW7Bo3F0W">Gustavo Cerati</option>
+                                <option value="5c8Cw62ZYj9XO6iDLRDEsi">Therion</option>
+                                <option value="3XkJyJgJDxnjdQgH0zfT8K">Los Rodríguez</option>
+                                <option value="57ekbx9PSS4ORs5wTZMSYp">Lacrimosa</option>
+                                <option value="3RNrq3jvMZxD9ZyoOZbQOD">Korn</option>
+                                <option value="2fsQcmsoEVZD4EHZOzARdx">Systema solar</option>
+                              </select>
+                              <button type="submit" class="btn btn-warning w-100 mt-3" id="buscar">BUSCAR</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-3" id="fila">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="./src/controllers/controladorBuscarCanciones.js" type="module"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
